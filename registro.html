@@ -1,0 +1,49 @@
+<DOCTYPE html>  
+    <html lang="es">
+    <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+            <script src="js/popper.min.js"></script>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    
+            <title>Registro</title>
+            
+    </head>
+    <body>
+            <center>
+            <h1 style="text-align: center">Hola Bebesitos</h1>
+            <h2>Te invito a registrarte</h2>
+    
+            <form action="registrarUsuario.php" method="get">
+    
+            <label for="CampoNombreUsuario">Nombre de Usuario:</label>
+            <br>
+            <input id="CampoNombreUsuario" type="text" name="nombre_usuario" class="form-control">
+            <br>
+            <label for="CampoCorreo">Correo Electronico:</label>
+            <br>
+            <input id="CampoCorreo" type="email" name="correo_electronico" class="form-control">
+            <br>         
+            <label for="CampoClave">Contraseña:</label>
+            <br>
+            <input id="CampoClave" type="password" name="clave" class="form-control">
+            <br>
+            <label for="CampoConfirmar">Confirmar contraseña:</label>
+            <br>
+            <input id="CampoConfirmar" type="password" name="confirmar_clave" class="form-control">
+            <br>
+            <br>
+            <input type="submit" class="btn btn-success" value="Registrar Usuario">
+            <br>
+    
+                    <p id="MensajeError"></p>
+                    <a href="registrar.php" >
+                        ¿Ya tienes una cuenta de usuario? Inicia Seción
+                    </a>
+                    <br>
+                    
+         </form> 
+         </center>
+    </body>
+    </html>
