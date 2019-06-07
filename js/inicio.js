@@ -10,7 +10,7 @@ function iniciar(){
     }else{
         alert("Correo Invalido");
     }
-    if(clave.value.length/*longitud*/>=8 && clave.value.length<=15 && /^([a-zA-Z0-9])$/.test(clave.value)){
+    if(clave.value.length/*longitud*/>=8 && clave.value.length<=15{
         /*validar la estructura de la contraseña: mayor o igual a 8 caracteres, menos o igual a 15, 
         que tenga al menos una minuscula, una mayuscula y un numero*/
 

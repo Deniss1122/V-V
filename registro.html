@@ -2,48 +2,86 @@
     <html lang="es">
     <head>
             <meta charset="UTF-8">
-            <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/registro.css">
+          
             <script src="js/popper.min.js"></script>
-            <script src="js/jquery.min.js"></script>
+            <script src="js/jquery-3.3.1.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="css/bootstrap.min.css">
+            
     
-            <title>Registro</title>
+            <title>Registrar</title>
             
     </head>
     <body>
-            <center>
-            <h1 style="text-align: center">Hola Bebesitos</h1>
-            <h2>Te invito a registrarte</h2>
+            
+                <div class="panda">
+                <div class="koala">
+            
+            <h1 style="text-align: center; font-size: 50px">Bienvenidos Bebesitos</h1>
+            
     
-            <form action="registrarUsuario.php" method="get">
-    
+            <form action="registro.php" method="get">
+                <h2 style="font-size: 20px">Registrate</h2>
+                <div	class="row">		
+                <div	class="col-md-6">
+                                <label for="CampoNombre">Nombre:</label>
+                                <input id="CampoNombre" type="text" name="nombre" class="form-control">
+                </div>		
+                <div	class="col-md-6">
+                                <label for="CampoApellido">Apellido:</label>
+                                <input id="CampoApellido" type="text" name="apellido" class="form-control">
+                </div> 
+                </div>
+     
+                <div	class="row">		
+                <div	class="col-md-6">
+
+                                <label for="CampoTelefono">Telefono:</label>
+                                <input id="CampoTelefono" type="text" name="telefono" class="form-control">
+                </div>		
+                <div	class="col-md-6">
+
+                                <label for="CampoFecha">Fecha de Nacimiento:</label>
+                                <input id="CampoFecha" type="date" name="fecha_nacimiento" class="form-control">
+                </div> 
+                </div>
+            
+            
+
             <label for="CampoNombreUsuario">Nombre de Usuario:</label>
-            <br>
             <input id="CampoNombreUsuario" type="text" name="nombre_usuario" class="form-control">
-            <br>
+            
             <label for="CampoCorreo">Correo Electronico:</label>
+            <input id="CampoCorreo" type="email" name="correo" class="form-control">
+
+                <div	class="row">		
+                <div	class="col-md-6">
+                        
+                        <label for="CampoClave">Contraseña:</label>
+                        <input id="CampoClave" type="password" name="clave" class="form-control">
+                </div>		
+                <div	class="col-md-6">
+                        
+                        <label for="CampoConfirmar">Confirmar contraseña:</label>
+                        <input id="CampoConfirmar" type="password" name="confirmar_clave" class="form-control">     
+                </div> 
+                </div>
+
+            
             <br>
-            <input id="CampoCorreo" type="email" name="correo_electronico" class="form-control">
-            <br>         
-            <label for="CampoClave">Contraseña:</label>
-            <br>
-            <input id="CampoClave" type="password" name="clave" class="form-control">
-            <br>
-            <label for="CampoConfirmar">Confirmar contraseña:</label>
-            <br>
-            <input id="CampoConfirmar" type="password" name="confirmar_clave" class="form-control">
-            <br>
-            <br>
+
             <input type="submit" class="btn btn-success" value="Registrar Usuario">
             <br>
     
                     <p id="MensajeError"></p>
-                    <a href="registrar.php" >
-                        ¿Ya tienes una cuenta de usuario? Inicia Seción
+                    <a href="inicio.html" >
+                        ¿Ya tienes una cuenta de usuario? Inicia Sesión
                     </a>
                     <br>
                     
          </form> 
-         </center>
+         </div>
+         </div>
     </body>
     </html>
