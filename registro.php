@@ -2,7 +2,7 @@
     $nombre=$_GET['nombre'];
     $apellido=$_GET['apellido'];
     $telefono=$_GET['telefono'];
-    $fecha=strtotime($_GET['fecha_nacimiento']);
+    $fecha=$_GET['fecha_nacimiento'];
 	$correo=$_GET['correo'];
 	$usuario=$_GET['nombre_usuario'];
 	$clave=$_GET['clave'];
