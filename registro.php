@@ -1,7 +1,8 @@
 <?php
+
     $nombre=$_GET['nombre'];
     $apellido=$_GET['apellido'];
-    $telefono=$_GET['telefono'];
+	$telefono=$_GET['telefono'];
     $fecha=$_GET['fecha_nacimiento'];
 	$correo=$_GET['correo'];
 	$usuario=$_GET['nombre_usuario'];
@@ -21,7 +22,7 @@
 				if (!$resultado){
 					die ("Error al registrar");
 				}else{
-					header ("Location: pagina.html");
+					header ("Location: inicio.html");
 				}
 			}else{
 				echo "Ya está registrado";

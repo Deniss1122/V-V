@@ -11,8 +11,8 @@
                 "keys" => array(
                     "id" => "1042913577292-sqgmtjr2d1o1tbsmdv1i3tpql6jdj7e5.apps.googleusercontent.com",
                     "secret" => "FM9L56XsrulhvSIzcKyysrD5"
-                )
-                "scope" => "email"
+                ),
+                "includeEmail" => true
             )
         )
     )
