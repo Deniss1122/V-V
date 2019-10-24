@@ -31,7 +31,7 @@
                     <li><a href="">Descripciones</a></li>
                     <li><a href="">Instrucciones</a></li>
                     <li><a href="">Configuración</a></li>
-                    <li><a href="">Cerrar seccion</a></li>
+                    <li><a href="">Cerrar sesión</a></li>
                 </ul>   
             </nav>
         </div>

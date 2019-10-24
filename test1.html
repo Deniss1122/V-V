@@ -2,13 +2,49 @@
 <html>
 <head>
 	<meta charset="UTF-8"> 
-	<title>impulsividad</title>
+	<title>Impulsividad</title>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilostest.css">
 </head>
 <body>
+	<div id="body">
+    <main>
+        <div class="content-all">
+            <header>
+                <h1>V&V</h1>
+                <h2>Tu rincon de las emociones</h2>
+            </header>
+            <input type="checkbox" id="check">
+            <label for="check" class="icon-menu"><img src="icon/lista.svg"></label>
+            
+
+            <nav class="menu" >
+                <ul>
+                	<li><a href="paginaP.php"> Inicio</a></li>
+                    <li><a href="paginadetest.php"> Test</a></li>
+                    <li><a href="">Descripciones</a></li>
+                    <li><a href="">Instrucciones</a></li>
+                    <li><a href="">Configuración</a></li>
+                    <li><a href="">Cerrar seccion</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </main>
+    <hr style="clear:both;">
+    <br>
+    <br>
+	<div id="container" style="margin-left:20%;margin-right:20%" >
+     <center><h2>Bienvenidos a Psico V&V</h2></center>
+    <P style="margin-left:15%;margin-right:15%">
 	<form action="respuestatest1.php" method="GET" >
+		
 		<div id="pregunta">
-			1.Planifico mis tareas
+			1.¿Planificas tus tareas?
 		</div>
+
 
 		<div id="respuestas">
 			<input type="radio" name="PREGUNTA1" value="si">
@@ -23,9 +59,11 @@
 			<br>
 		</div>
 		<div id="pregunta">
-			2.Me tomo las cosas muy a pecho, me perturbo con facilidad
+			2.¿te tomas las cosas muy a pecho, te perturbas con facilidad?
 
 		</div>
+		
+
 
 		<div id="respuestas">
 			<input type="radio" name="PREGUNTA2" value="si">
@@ -40,8 +78,8 @@
 			<br>
 		</div>
 		<div id="pregunta">
-			3.Me aburro con facilidad tratando de resolver problemas en mi mente 
-			(me aburre pensar en algo por demasiado tiempo).
+			3.¿te aburroes con facilidad tratando de resolver problemas en tu mente 
+			(te aburre pensar en algo por demasiado tiempo)?.
 
 		</div>
 
@@ -58,7 +96,7 @@
 			<br>
 		</div>
 		<div id="pregunta">
-			4.Gasto más de lo que gano
+			4.¿Gastas más de lo que ganas?
 		</div>
 
 		<div id="respuestas">
@@ -74,7 +112,7 @@
 			<br>
 		</div>
 		<div id="pregunta">
-			5.Planifico mis viajes con antelación
+			5.¿Planificas tus viajes con antelación?
 
 		</div>
 
@@ -91,7 +129,7 @@
 			<br>
 		</div>
 		<div id="pregunta">
-			6.Me Concentro con Facilidad
+			6.¿te Concentras con Facilidad?
 		</div>
 
 		<div id="respuestas">
@@ -107,7 +145,7 @@
 			<br>
 		</div>
 		<div id="pregunta">
-			7.Me frustro fácilmente si algo no sale como yo quiero
+			7.¿Te frustras fácilmente si algo no sale como tu quieres?
 		</div>
 
 		<div id="respuestas">
@@ -121,8 +159,9 @@
 				no
 			</label>
 			<br>
+			</div>
 			<div id="pregunta">
-			8.Hago las cosas sin pensar
+			8.¿Haces las cosas sin pensar?
 		</div>
 
 		<div id="respuestas">
@@ -136,8 +175,9 @@
 				no
 			</label>
 			<br>
+			</div>
 			<div id="pregunta">
-			9.Me arrepiento de cosas que digo o actos que llevo a cabo
+			9.¿Te arrepientes de cosas que dices o actos que llevas a cabo?
 		</div>
 
 		<div id="respuestas">
@@ -151,8 +191,9 @@
 				no
 			</label>
 			<br>
+		</div>
 			<div id="pregunta">
-			10.Soy capaz de romper una relación, dejar un trabajo o irme de viaje de "la noche a la mañana"
+			10.¿Eres capaz de romper una relación, dejar un trabajo o irte de viaje de "la noche a la mañana"?
 
 		</div>
 
@@ -167,12 +208,15 @@
 				no
 			</label>
 			<br>
-		
+		</div>
 
 
-		<INPUT TYPE="SUBMIT">
+		<INPUT id="botonenviar" TYPE="SUBMIT">
+
 	</form>
+</div>
 
+
+    </div>
 </body>
 </html>
-impulsividad

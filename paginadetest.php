@@ -74,7 +74,7 @@
 					    un 7% de la población los padece en la actualidad.
 					   
 					</p>
-						<a href="test1.html" class="btn btn-success">Test de ansiedad</a>
+						<a href="test2.html" class="btn btn-success">Test de ansiedad</a>
 				  </div>
 			   </div>
 					<div class="col col-xl-4 col-12">
@@ -95,7 +95,7 @@
 							<br>
 							
 						</p>
-						<a href="test1.html" class="btn btn-success">text</a>
+						<a href="test3.html" class="btn btn-success">test de autoestima</a>
 					</div>
 				</div>
 
@@ -121,12 +121,12 @@
 						    estado anímico en el cual estos sentimientos interfieren con la vida 
 							diaria
 							<br>
-							<br>
+							
 							
 
 
 						</p>
-						<a href="test1.html" class="btn btn-success">text de depresión</a>
+						<a href="test4.html" class="btn btn-success">test de depresión</a>
 					</div>
 			</div>
 			<div class="col col-xl-5 col-12">
@@ -143,7 +143,7 @@
                             familiar o amigo al respecto. Es importante contestar todas las preguntas.
 
 						</p>
-						<a href="test1.html" class="btn btn-success">text</a>
+						<a href="test5.html" class="btn btn-success">test de personalidad</a>
 					</div>
 		</div>
 	</div>

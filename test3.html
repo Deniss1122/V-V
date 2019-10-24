@@ -2,10 +2,46 @@
 <html>
 <head>
 	<meta charset="UTF-8"> 
+	min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/estilostest.css">
+</head>
+<body>
+	<div id="body">
+    <main>
+        <div class="content-all">
+            <header>
+                <h1>V&V</h1>
+                <h2>Tu rincon de las emociones</h2>
+            </header>
+            <input type="checkbox" id="check">
+            <label for="check" class="icon-menu"><img src="icon/lista.svg"></label>
+            
+
+            <nav class="menu" >
+                <ul>
+                	<li><a href="paginaP.php"> Inicio</a></li>
+                    <li><a href="paginadetest.php"> Test</a></li>
+                    <li><a href="">Descripciones</a></li>
+                    <li><a href="">Instrucciones</a></li>
+                    <li><a href="">Configuración</a></li>
+                    <li><a href="">Cerrar seccion</a></li>
+                </ul>   
+            </nav>
+        </div>
+    </main>
+    <hr style="clear:both;">
+    <br>
+    <br>
+	<div id="container" style="margin-left:20%;margin-right:20%" >
+     <center><h2>Bienvenidos a Psico V&V</h2></center>
+    <P style="margin-left:15%;margin-right:15%">
 	<title>autoestima</title>
 </head>
 <body>
-	<form action="respuestatest1.php" method="GET" >
+	<form action="respuestatest3.php" method="GET" >
 		<div id="pregunta">
 			1.¿Has logrado éxitos en tu vida?
 
@@ -123,6 +159,7 @@
 				no
 			</label>
 			<br>
+			</div>
 			<div id="pregunta">
 			8.¿Te has sentido herido alguna vez por lo que te ha dicho otra persona?
 
@@ -140,6 +177,7 @@
 				no
 			</label>
 			<br>
+			</div>
 			<div id="pregunta">
 			9.¿Quisieras  cambiar algo de tu carácter?
 		</div>
@@ -155,6 +193,7 @@
 				no
 			</label>
 			<br>
+			</div>
 			<div id="pregunta">
 			10.¿Cuando has cometido errores en casos de la vida cotidiana sientes que fue tu culpa?
 
@@ -172,10 +211,11 @@
 				no
 			</label>
 			<br>
+			</div>
 		
 
 
-		<INPUT TYPE="SUBMIT">
+		<INPUT id="botonenviar"  TYPE="SUBMIT">
 	</form>
 
 </body>
