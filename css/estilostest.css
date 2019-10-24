@@ -98,16 +98,29 @@
 		padding-top: 30px; 
 		background: white;
 		border: rgb(231, 200, 23) 15px double;
-		text-align: center;
+        text-align: center;
+        
+
 		
-	}
+    }
+    .card{
+        border: rgb(231, 200, 23) 15px double;
+    }
+    .card-text{
+
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+        
+    }
 	
 	#container h2{
 	
 		font-weight: 1000; 
 	}
 	p{
-		font-size: 26px;
+		font-size: 20px;
 		text-align: center;
 	}
 	.menu ul li a{
@@ -123,4 +136,7 @@
 		/* background: #F7D358; */
 		color:#000000
 	}
-	
+    
+    h3{
+        font-weight: 1000; 
+    }

@@ -5,13 +5,38 @@
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/estilostest.css">
+		
 	</head>
-	<body>
+	<body><div id="body">
+    <main>
+        <div class="content-all">
+            <header>
+                <h1>V&V</h1>
+                <h2>Tu rincon de las emociones</h2>
+            </header>
+            <input type="checkbox" id="check">
+            <label for="check" class="icon-menu"><img src="icon/lista.svg"></label>
+            
+
+            <nav class="menu" >
+                <ul>
+                    <li><a href="paginadetest.php"> Test</a></li>
+                    <li><a href="">Descripciones</a></li>
+                    <li><a href="">Instrucciones</a></li>
+                    <li><a href="">Configuración</a></li>
+                    <li><a href="">Cerrar seccion</a></li>
+                </ul>   
+            </nav>
+        </div>
+	</main>
+	<hr style="clear:both;">
+    <br>
+    <br>
 		<div class="container">
 			<div class="row">
 				<div class="col col-xl-4 col-12">
 					<div class="card" style="width:100%">
-					    <h5 class="card-title"> Impulsividad: </h5>
+					    <h3 class="card-title" style="text-align:center"> Impulsividad </h3>
 						<img src="impulsividad.JPG" class="card-img-top" style="widht:100%;height:150px;">
 						<p class="card-text">
 							<br>
@@ -25,14 +50,15 @@
 						 o por el contrario controlas tus impulsos con facilidad para que no te sobrepasen? 
 					    <br>
 					    <br>
-					    <br>
+						<br>
+						<br>
 						</p>
 						<a href="test1.html" class="btn btn-success">text de impulsividad</a>
 					</div>
 				</div>
 				<div class="col col-xl-4 col-12">
 					<div class="card" style="width:100%;">
-						<h5 class="card-title">Ansiedad</h5>
+						<h3 class="card-title" style="text-align:center">Ansiedad</h3>
 						<img src="ansiedad.JPG" class="card-img-top" style="widht:100%;height:150px;">
 						<p class="card-text">
 							<br>
@@ -53,7 +79,7 @@
 			   </div>
 					<div class="col col-xl-4 col-12">
 					<div class="card" style="width:100%;">
-						<h5 class="card-title">Autoestima</h5>
+						<h3 class="card-title" style="text-align:center">Autoestima</h3>
 						<img src="autoestima.JPG" class="card-img-top" style="widht:100%;height:150px;">
 						<p class="card-text">
 							<br>
@@ -67,6 +93,7 @@
 							la manera como nos relacionamos con los demás.
 							<br>
 							<br>
+							
 						</p>
 						<a href="test1.html" class="btn btn-success">text</a>
 					</div>
@@ -81,7 +108,7 @@
 		<div class="row">
 				<div class="col col-xl-5 col-12">
 					<div class="card" style="width:100%;">
-						<h5 class="card-title" style="text-align:center">Depresión</h5>
+						<h3 class="card-title" style="text-align:center">Depresión</h3>
 						<img src="depresion.JPG" class="card-img-top" style="widht:100%;height:150px;">
 						
 						<p class="card-text">
@@ -92,7 +119,10 @@
 						    La mayoría de nosotros se siente así alguna que otra vez durante 
 						    períodos cortos de tiempo. La depresión clínica es un trastorno del 
 						    estado anímico en el cual estos sentimientos interfieren con la vida 
-						    diaria-
+							diaria
+							<br>
+							<br>
+							
 
 
 						</p>
@@ -102,7 +132,7 @@
 			<div class="col col-xl-5 col-12">
 					<div class="card" style="width:100%;">
 
-						<h5 class="card-title">Personalidad</h5>
+						<h3 class="card-title" style="text-align:center">Personalidad</h3>
 						<img src="personalidad.JPG" class="card-img-top" style="widht:100%;height:150px;">
 						<p class="card-text">
 							El siguiente test ha sido creado para conocer a qué tipo de patrón 

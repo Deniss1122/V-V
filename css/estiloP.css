@@ -20,20 +20,11 @@ width: 200px;
     margin-left: 980px;
     
 }
-.menu li{ /*item*/
-    color: #FFBF00;
-    list-style: none;
-    padding: 10px; /*ESPACIO INTERNO*/
-    cursor:pointer; /*CAMBIAR EL CURSOR DEL MOUSE*/
-    transition: all 300ns;
-
-
-}
 #body{
-    background-image: url("../flor.png");
-    background-size:100% 100%; 
-    background-repeat: no-repeat;
-    background-color:#FFFF00; 
+    background-image: url("../imagenes/fondo.jpg");
+    background-size:100%; 
+    /* background-repeat: no-repeat;
+    background-color:#FFFF00;  */
     width: 100%;
     height: 2000px;
     display: block;
@@ -57,7 +48,8 @@ main{
     width:100%;
     height:auto;
     position: absolute;
-    background:#FFBF00;
+    background:rgb(231, 200, 23);
+    z-index: 1;
 }
 
 .content-all{
@@ -93,7 +85,7 @@ header{
     color: white;
     text-align: center;
     padding-top: 5px;
-    
+    z-index: 1;
 
 }
 .content-all img{
@@ -103,11 +95,31 @@ header{
 }
 
 #container{
-    
+    padding-top: 30px; 
     background: white;
+    border: rgb(231, 200, 23) 15px double;
+    text-align: center;
     
+}
 
+#container h2{
+
+    font-weight: 1000; 
 }
 p{
-    font-size: 20px;
+    font-size: 26px;
+    text-align: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #FFBF00;
+    list-style: none;
+    padding: 10px; /*ESPACIO INTERNO*/
+    cursor:pointer; /*CAMBIAR EL CURSOR DEL MOUSE*/
+    transition: all 300ns;
+    font-size: 24px;
+}
+.menu ul li :hover{
+    /* background: #F7D358; */
+    color:#000000
 }
